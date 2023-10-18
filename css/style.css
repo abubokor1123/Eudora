@@ -1,0 +1,348 @@
+/* font-family: 'Playfair Display', serif; */
+/* font-family: 'Raleway', sans-serif; */
+/* font-family: 'Bebas Neue', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+}
+.h1  h2 h3 h4 h5 h6 p a ul li{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(../images/Eudora-main.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    position: relative;
+    z-index: 0;
+}
+header::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .5;
+    z-index: -1;
+}
+.nav-link{
+    color: #fff;
+    font-size: 18px;
+    padding: 5px 20px !important;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+.nav-link:hover{
+    color: #e59205;
+    /* border: 1px solid rgb(7, 5, 6);
+    background-color: rgb(255, 11, 223);
+    padding: 5px 15px;
+    transition: .5s all ease-in-out;
+    border-radius: 10px; */
+}
+
+.nav-item img{
+    width: 150px;
+   
+}
+.navbar-nav{
+    align-items: center;
+}
+.main-header{
+    background-color: #00000050;
+    padding: 40px 0;
+}
+.content{
+    color: #fff;
+    text-align: center;
+}
+.content h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 50px;
+    font-style: italic;
+}
+.content p{
+    font-size: 18px;
+    margin: 30px 0;
+    font-family: 'Raleway', sans-serif;
+}
+.content span{
+    color: #e59205;
+}
+.btn-learn{
+    color: #fff;
+    border: none;
+    border: 1px solid #fff;
+    border-radius: 0;
+    font-size: 30px;
+    font-weight: 400;
+    padding: 5px 50px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.btn-learn:hover{
+    color: #ffffff;
+    background-color: #e59205;
+    border: 1px solid #e59205;
+}
+.height{
+    min-height: 75vh;
+    align-items: center;
+}
+.food-section{
+    padding: 70px 0;
+}
+.food-heading{
+    text-align:center;
+}
+.food-heading h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 40px;
+    font-style: italic;
+    color: #6e7498;
+    position: relative;
+}
+.food-heading h1::after{
+    content: '';
+    left: -25%;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #e59205;
+    width: 200px;
+    height: 2px;
+    position: absolute;
+
+}
+.food-heading h1::before{
+    content: '';
+    right: -25%;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #e59205;
+    width: 200px;
+    height: 2px;
+    position: absolute;
+
+}
+.food-heading p{
+    color: #a4a8bc;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+.learn-section{
+    padding: 40px 0 200px;
+    text-align: center;
+}
+.learn-text{
+
+}
+.learn-text ul{
+    display: flex;
+    justify-content: space-between;
+}
+.learn-text ul li {
+    list-style: none;
+}
+.learn-text ul li a{
+    text-decoration: none;
+    border: 1px solid #6e7498;
+    padding: 10px 30px;
+    color: #a4a0a0;
+    transition: .5s all ease-in-out;
+}
+.learn-text ul li a:hover{
+    background-color: #e59205;
+    border: 1px solid #e59205;
+    color: #fff;
+}
+
+
+.learn-content{
+    padding: 70px 0 30px;
+}
+.learn-content img{ 
+    padding: 10px;
+    background: #f8f3f3;
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px 1px #d4d2d2;
+    min-height: 250px;
+   
+}
+.learn{
+
+}
+.learn-1{
+    text-decoration: none;
+    padding: 10px 70px;
+    border: 1px solid #6e7498;
+    color: #6e7498;
+    transition: .5s all ease-in-out;
+}
+.learn-1:hover{
+    color: #fff;
+    background-color: #e59205;
+    border: 1px solid #e59205;
+}
+.breakfast{
+    padding: 130px 0;
+    background: #e59205;
+    background-image: url(../images/dish.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: right;
+}
+.breakfast h1{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: italic;
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+.icon-section{
+    padding: 40px 0 200px;
+}
+.icon-list{
+   
+}
+.icon-list img{
+    margin-top: 50px;
+}
+.icon-list h4{
+    font-size: 25px;
+    color: #6e7498;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    margin-top: 40px;
+
+}
+.icon-list p{
+    font-size: 18px;
+    color: #a4a8bc;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    
+}
+.icon-list a{
+    text-decoration: none;
+    border: 1px solid #6e7498;
+    padding: 10px 30px;
+    color: #a4a0a0;
+    transition: .5s all ease-in-out;
+   
+}
+.icon-list a:hover{
+    color: #fff;
+    background-color: #e59205;
+    border: 1px solid #e59205;
+}
+
+
+
+
+
+
+
+
+.form{
+    background-image: url(../images/menu.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 0;
+}
+.subscrive{
+    text-align: center;
+}
+.subscrive h2{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+   
+}
+.subscrive input{
+    border: none;
+    background: transparent;
+    border: 1px solid #fff;
+    outline: none;
+    text-align: center;
+    padding: 8px 0;
+    margin: 40px 0 50px;
+    color: #fff;
+    width: 70%;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+}
+.subscrive input::placeholder{
+    color: #fff;
+}
+.send a{
+    text-decoration: none;
+    border:1px solid #ffffff;
+    padding: 10px 30px;
+    color: #000000;
+    transition: .5s all ease-in-out;
+    background-color: #ebe9e9;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.send a:hover{
+    background-color: #e59205;
+    color: #FFF;
+    border: 1px solid #e59205;
+}
+footer{
+  padding: 30px 0 15px;
+}
+.footer-content{
+    align-items: center;
+}
+.copy{
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+}
+.footer-menu{
+    
+}
+.footer-menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.footer-menu ul li{
+
+}
+.footer-menu ul li a{
+    text-decoration: none;
+    color: #a4a8bc;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    
+}
